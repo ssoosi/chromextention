@@ -8,6 +8,8 @@
     // Select the button with the specified class names
     const closeButton = document.querySelector(".nav-button-znwuaSC1.size-xxsmall-znwuaSC1.closeButton-kckar8jz");
 
+    const goProBlock = document.querySelector(".modal-VeoIyDt4");
+
     // Remove the adBox if it exists
     if (adBox) {
       adBox.remove();
@@ -30,6 +32,13 @@
       console.log('Close button clicked.');
     } else {
       console.log('No close button present.');
+    }
+     // Remove the Go Pro block if it exists
+    if (goProBlock) {
+      goProBlock.remove();
+      console.log('Go Pro block removed.');
+    } else {
+      console.log('No Go Pro block present.');
     }
   }, 5000);
 })();
