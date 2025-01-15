@@ -7,8 +7,8 @@
     const chartingAd = document.getElementById("charting-ad");
     // Select the button with the specified class names
     const closeButton = document.querySelector(".nav-button-znwuaSC1.size-xxsmall-znwuaSC1.closeButton-kckar8jz");
-
-    const goProBlock = document.querySelector(".modal-VeoIyDt4");
+     // Select the button with the specified class names to close 
+    const goProBlock = document.querySelector(".overlayBtn-FvtqqqvS .closeButton-wH0t6WRN");
 
     // Remove the adBox if it exists
     if (adBox) {
@@ -35,8 +35,8 @@
     }
      // Remove the Go Pro block if it exists
     if (goProBlock) {
-      goProBlock.remove();
-      console.log('Go Pro block removed.');
+      goProBlock.click();
+      console.log('Go Pro block close.');
     } else {
       console.log('No Go Pro block present.');
     }
