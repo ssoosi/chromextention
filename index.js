@@ -10,7 +10,7 @@
      // Select the button with the specified class names to close 
     const goProBlock = document.querySelector(".overlayBtn-FvtqqqvS .closeButton-wH0t6WRN");
     // // Select the element with the class 'modal-VeoIyDt4'
-    const modalElement = document.querySelector('.modal-VeoIyDt4');
+    const modalElement = document.querySelector('.gopro.modal-VeoIyDt4');
 
     // Remove the adBox if it exists
     if (adBox) {
@@ -19,7 +19,6 @@
     } else {
       console.log('No toast ad present.');
     }
-
     // Remove the chartingAd if it exists
     if (chartingAd) {
       chartingAd.remove();
@@ -27,7 +26,6 @@
     } else {
       console.log('No charting ad present.');
     }
-
     // Remove the close button if it exists
     if (closeButton) {
       closeButton.click();
